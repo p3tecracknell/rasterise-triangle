@@ -1,0 +1,27 @@
+{
+  "name": "rasterise-triangle",
+  "version": "0.0.1",
+  "description": "Rasterise a triangle",
+  "main": "example.js",
+  "dependencies": {
+    "canvas": "^2.0.0-alpha.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Pete Cracknell",
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p3tecracknell/rasterise-triangle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/p3tecracknell/rasterise-triangle/issues"
+  },
+  "homepage": "https://github.com/p3tecracknell/rasterise-triangle#readme"
+}
