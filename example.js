@@ -1,5 +1,3 @@
-var fs = require('fs')
-var path = require('path')
 var Canvas = require('canvas')
 const rasterise = require('./rasterise')
 
@@ -23,4 +21,4 @@ var triangle = {
 
 rasterise.fillTriangle(triangle, data, width, height)
 ctx.putImageData(imgData, 0, 0)
-canvas.createPNGStream().pipe(fs.createWriteStream(path.join(__dirname, 'example.png')))
+console.log('<img src="' + canvas.toDataURL() + '" />')
