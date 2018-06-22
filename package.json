@@ -2,8 +2,8 @@
   "name": "rasterise-triangle",
   "version": "0.0.1",
   "description": "Rasterise a triangle",
-  "main": "example.js",
-  "dependencies": {
+  "main": "rasterise.js",
+  "optionalDependencies": {
     "canvas": "^2.0.0-alpha.12"
   },
   "devDependencies": {},
