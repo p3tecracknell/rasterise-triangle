@@ -1,6 +1,6 @@
 {
   "name": "rasterise-triangle",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Rasterise a triangle",
   "main": "rasterise.js",
   "optionalDependencies": {
