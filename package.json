@@ -1,15 +1,12 @@
 {
   "name": "rasterise-triangle",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Rasterise a triangle",
   "main": "rasterise.js",
-  "devDependencies": {
-    "canvas": "^2.0.0-alpha.12"
-  },
+  "devDependencies": {},
   "engines": {
     "node": ">= 6"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
