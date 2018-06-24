@@ -1,13 +1,15 @@
 {
   "name": "rasterise-triangle",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Rasterise a triangle",
   "main": "rasterise.js",
   "devDependencies": {},
   "engines": {
     "node": ">= 6"
   },
-  "files": [ "rasterise.js" ],
+  "files": [
+    "rasterise.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
