@@ -1,3 +1,5 @@
+A small NodeJS library for rasterising triangles. Ideal if using a Canvas (server or client side)
+
 ```javascript
 const Canvas = require('canvas')
 const rasterise = require('rasterise-triangle')
@@ -24,3 +26,14 @@ rasterise.fillTriangle(triangle, data, width, height)
 ctx.putImageData(imgData, 0, 0)
 console.log('<img src="' + canvas.toDataURL() + '" />')
 ```
+
+### Installation
+This is a Node.js module available through the npm registry.
+Before installing, download and install Node.js. 
+Installation is done using the npm install command:
+```
+$ npm install express
+```
+
+### Acknowledgements
+Inspired by a Stack Overflow [answer](https://stackoverflow.com/questions/49047229/draw-a-triangle-to-pixel-array).
