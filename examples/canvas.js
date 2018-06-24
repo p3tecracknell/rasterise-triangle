@@ -1,5 +1,5 @@
 var Canvas = require('canvas')
-const rasterise = require('./rasterise')
+const rasterise = require('../rasterise')
 
 const width = 100
 const height = 100
