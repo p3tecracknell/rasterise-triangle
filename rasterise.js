@@ -10,7 +10,7 @@ const calcSlope = (va, vb) => (vb.x - va.x) / (vb.y - va.y)
 module.exports = {
   fillTriangle: function(triangle, data, imageWidth, imageHeight) {
     let vertices = Array.from(triangle.points)
-    vertices.sort((a, b) => a.y > b.y)
+    vertices.sort((a, b) => a.y - b.y)
     if (vertices[1].y === vertices[2].y) {
       fillBottomFlatTriangle(vertices, triangle.color)
     } else if (vertices[0].y === vertices[1].y) {
@@ -75,7 +75,6 @@ module.exports = {
     function plot(x, y, color) {
       const baseI = (x + (y * imageWidth)) * 4
       const oldAlpha = color[3]
-      let newAlpha = 1 - (1 - oldAlpha) * (1 - data[baseI + 3]);
       data[baseI]   = blendChannel(color[0], oldAlpha, data[baseI]);
       data[baseI+1] = blendChannel(color[1], oldAlpha, data[baseI+1]);
       data[baseI+2] = blendChannel(color[2], oldAlpha, data[baseI+2]);
